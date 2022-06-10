@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="section">
+        <div class="container ">
+            <h4 class="text-center mt-5 text-capitalize fs-1  text-light animation-text">Task
+                <span class="animation-text">l</span>
+                <span class="animation-text">i</span>
+                <span class="animation-text">s</span>
+                <span class="animation-text">t</span>
+            </h4>
+
+            <div class="div text-center">
+                <form id="task_form">
+                    <input type="text" class="form-control w-50 m-auto mt-5" placeholder="Enter your task" id="new_task">
+                    <p id="message"></p>
+                    <input type="submit" value="Add Task" class="btn btn-primary  btn-lg mt-5" id="inputBtn">
+                </form>
+                <p id="message"></p>
+                <h3 class="text-center mt-5 text-capitalize fs-1  text-light mb-5">
+                    <span class="animation">S</span>
+                    <span class="animation">h</span>
+                    <span class="animation">o</span>
+                    <span class="animation">w</span>
+                    <span class="animation">T</span>
+                    <span class="animation">a</span>
+                    <span class="animation">s</span>
+                    <span class="animation">k</span>
+                </h3>
+                <input type="text" placeholder="Filter task" class="form-control mt-5 w-50 m-auto" id=" task_filte">
+
+               <div>
+                <ul id="show-task" class="">
+                </ul>
+                 <div id="clear">
+                    <button  class="btn btn-outline-danger btn-lg mt-5" id=" clear_task_btn">Clear Tasks</button>
+                 </div>
+                 
+
+
+
+        </div>
+    </section>
+
+
+    <script src="min.js"></script>
+   
+</body>
+
+</html>
